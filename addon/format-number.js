@@ -1,9 +1,7 @@
-import { number } from "./settings";
+import { number as numberSettings } from "./settings";
 import { defaults, checkPrecision, isObject } from "./utils";
 import unformat from "./unformat";
 import toFixed from "./to-fixed";
-
-var numberSettings = number;
 
 /**
  * Format a number, with comma-separated thousands and custom precision/decimal places
